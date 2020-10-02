@@ -5,18 +5,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 //import HelloWorld from "./components/HelloWorld"
 import CourseCard from "./components/CourseCard"
 import ModuleList from "./components/ModuleList";
+import WhiteBoard from "./components/WhiteBoard";
 
 function App() {
   return (
       <div className="container">
-        <h1>Whiteboard</h1>
-        <ModuleList/>
-        <div className="card-deck">
-          <CourseCard/>
-          <CourseCard/>
-          <CourseCard/>
-          <CourseCard/>
-        </div>
+        <WhiteBoard/>
       </div>
   )
 }
